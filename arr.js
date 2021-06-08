@@ -1,8 +1,8 @@
-let Negatives = [9, -5, 3, -6, 1, -2]
-getNegativearray = (arr) => {
-    return Negatives.filter(item => item > 0).reduce((a, b) => a + b)
-    }
-console.log(getNegativearray(Negatives))
+// let Negatives = [9, -5, 3, -6, 1, -2]
+// getNegativearray = (arr) => {
+//     return Negatives.filter(item => item > 0).reduce((a, b) => a + b)
+//     }
+// console.log(getNegativearray(Negatives))
 
 
 const it_department_employees = [
@@ -56,4 +56,4 @@ const it_department_employees = [
         ]
     let highestSalary = it_department_employees.filter((a) => a.salary > 1500)
     highestSalary.forEach((a) => a.salary += 500)
-    console.log(highestSalary)        
+    console.log(highestSalary)       
